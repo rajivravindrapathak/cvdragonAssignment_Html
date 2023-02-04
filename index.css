@@ -6,11 +6,11 @@
     border: 2px solid rgb(98, 124, 172);
     width: 34%;
     margin-left: 2%;
-    padding: 3%;
+    padding-left: 7.2%;
 }
 
 .ImageDiv {
-    margin-top: 4%
+    margin-top: 11%
 }
 
 .ImageDiv > img {
