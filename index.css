@@ -1,0 +1,96 @@
+.mainDiv {
+    display: flex;
+}
+
+.leftDiv {
+    border: 1px solid black;
+    width: 35%;
+    margin-left: 2%;
+    padding: 3%;
+}
+
+.leftFirstDiv > img {
+    width: 155px;
+    height: 150px;
+}
+
+.mailDiv {
+    display: flex;
+    color: black;
+}
+
+.mailDiv > img {
+    width: 40px;
+    height: 40px;
+}
+
+.numDiv {
+    display: flex;
+    color: black;
+}
+
+.numDiv > img {
+    width: 40px;
+    height: 40px;
+}
+
+.linkdinDiv {
+    display: flex;
+    color: black;
+}
+
+.linkdinDiv > img {
+    width: 40px;
+    height: 40px;
+}
+
+.locationDiv {
+    display: flex;
+    color: black;
+}
+.locationDiv > img {
+    width: 40px;
+    height: 40px;
+}
+
+.githubDiv {
+    display: flex;
+    color: black;
+}
+
+.githubDiv > img {
+    width: 40px;
+    height: 40px;
+}
+
+.rightDiv {
+    border: 1px solid red;
+    width: 48%;
+    margin-left: 2%;
+    padding: 3%;
+}
+
+.allProject {
+    padding-left: 3%;
+}
+
+.firstProjectDiv {
+    display: flex;
+}
+
+.firstProjectlink > img {
+    width: 40px;
+    height: 40px;
+}
+
+.firstProjectDiv > h3 {
+    text-decoration: underline;
+}
+
+.allProject > div:first-child > div:last-child {
+    padding-left: 4%;
+}
+
+.subprojectDiv {
+    padding-left: 4%;
+}
