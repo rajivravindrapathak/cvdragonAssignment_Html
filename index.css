@@ -3,15 +3,35 @@
 }
 
 .leftDiv {
-    border: 1px solid black;
-    width: 35%;
+    border: 2px solid rgb(98, 124, 172);
+    width: 34%;
     margin-left: 2%;
     padding: 3%;
 }
 
-.leftFirstDiv > img {
-    width: 155px;
-    height: 150px;
+.ImageDiv {
+    margin-top: 4%
+}
+
+.ImageDiv > img {
+    width: 295px;
+    height: 250px;
+}
+
+.leftDiv > div:nth-child(2) > div {
+    padding-left: 3%;
+}
+
+.leftDiv > div:nth-child(3) > div {
+    padding-left: 3%;
+}
+
+.leftDiv > div:nth-child(3) > div > p {
+    padding-left: 3%;
+}
+
+.leftDiv > div:nth-child(3) > p {
+    padding-left: 3%;
 }
 
 .mailDiv {
@@ -22,6 +42,8 @@
 .mailDiv > img {
     width: 40px;
     height: 40px;
+    margin-right: 2.5%;
+    margin-left: -1%;
 }
 
 .numDiv {
@@ -30,8 +52,10 @@
 }
 
 .numDiv > img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+    margin-top: 2%;
+    margin-right: 2.5%;
 }
 
 .linkdinDiv {
@@ -40,8 +64,11 @@
 }
 
 .linkdinDiv > img {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 0.9%
 }
 
 .locationDiv {
@@ -49,8 +76,10 @@
     color: black;
 }
 .locationDiv > img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+    margin-top: 2%;
+    margin-right: 2.5%;
 }
 
 .githubDiv {
@@ -59,15 +88,21 @@
 }
 
 .githubDiv > img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
+    margin-top: 1%;
+    margin-right: 2%;
 }
 
 .rightDiv {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 48%;
     margin-left: 2%;
     padding: 3%;
+}
+
+.rightDiv > p {
+    padding-left: 3%;
 }
 
 .allProject {
@@ -81,10 +116,15 @@
 .firstProjectlink > img {
     width: 40px;
     height: 40px;
+    margin-top: 19%;
 }
 
 .firstProjectDiv > h3 {
     text-decoration: underline;
+}
+
+span {
+    padding: 15%;
 }
 
 .allProject > div:first-child > div:last-child {
